@@ -1,0 +1,15 @@
+<!--upload.wxml-->
+<!--用户选择自己的框内头像页-->
+<import src="../../cropper/cropper.wxml" />
+<view class="cropper-wrapper">
+  <template is="cropper" data="{{...cropperOpt}}" />
+  <view class="cropper-buttons">
+    <view class="upload" bindtap="uploadTap">
+      重新选择
+    </view>
+    <view class="getCropperImage" bindtap="getCropperImage">
+      确定
+    </view>
+  </view>
+</view>
+<!--author:马小帅.-->

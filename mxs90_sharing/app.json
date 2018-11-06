@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/select/select",
+    "pages/madeph/madeph",
+    "pages/upload/upload"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "AAU生日快乐-校庆头像制作",
+    "navigationBarTextStyle":"black"
+  }
+}

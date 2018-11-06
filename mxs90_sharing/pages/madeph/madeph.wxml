@@ -1,0 +1,20 @@
+<!--madeph.wxml-->
+<!--合成生产头像页-->
+<view class="container flex">
+    <view>
+    <canvas canvas-id="myCanvas" class='bg'>
+    <image src="{{bgsrc}}" style='width:10rem; height:10rem;'></image>
+    <image src="{{src}}" class="avatar {{bgcss}}"></image></canvas>
+        <!--这里的canvas有个BUG，懂的人都懂，如果解决望告知-->    
+        <view style='position:absolute;left:400rpx;'><canvas  canvas-id='ahaucanvas' style='height:840px;width:840px;position:absolute;left:400rpx;'>
+        <!--<view class='colorpic'>
+            <view class='pictit'><image src='{{scanConfig.userInfo.avatar}}'></image></view>
+            <view class='picblock'><image src='../images/ttshare.png'></image><text>{{gameConfig.myScore}}</text></view>
+            <view  class='pictext'><image src='../images/qiubai.png'></image></view>
+            </view>   -->
+        </canvas></view> 
+        <button class="item flex" bindtap="upload" style= 'margin-bottom:5px'>选择图片</button>
+        <button type="primary" class='item flex' bindtap='generate' >生成头像</button>
+    </view>
+ </view>
+ <!--author:马小帅.-->

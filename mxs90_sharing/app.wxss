@@ -1,0 +1,29 @@
+page {
+  height: 100%;
+  font-family: PingFangSC,Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 100；
+  font-weight：normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #4a4a4a;
+}
+.container {
+  height: 100%;
+}
+
+.btn-cta {
+  width: 130px;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  background-color: #00c9a9;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,97 @@
+.cropper-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   background-color: #e5e5e5; 
+}
+
+.cropper-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.cropper-buttons .upload, .cropper-buttons .getCropperImage{
+    width: 50%;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.avatar-container{
+    position: relative;
+    text-align: center;
+    padding-top: 50%; 
+}
+
+
+.avatar{
+    /* width: 6.25rem;
+    height: 6.25rem; */
+    width: 5.25rem;
+    height: 5.25rem;
+    border-radius: 50%;
+    position: absolute;
+    /* top: 18%;
+    left: 19%; */
+    top: 24%;
+    left: 25%;
+}
+
+.h1{
+    width: 6.25rem;
+    height: 6.25rem; 
+    top: 19%;
+    left: 19%; 
+    
+}
+.h2{
+    width: 5.75rem;
+    height: 5.75rem; 
+    top: 19.5%;
+    left: 20%;   
+}
+.h3{
+    width: 6.2rem;
+    height: 6.2rem; 
+    top: 18.5%;
+    left: 19%;  
+}
+.h5{
+    width: 4.8rem;
+    height: 4.8rem; 
+    top: 26%;
+    left:26%;  
+}
+.h6{
+    width: 6.35rem;
+    height: 6.35rem; 
+    top: 18.5%;
+    left: 19%; 
+    
+}
+
+
+.item{
+    line-height: 3rem;
+}
+.bg{
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+}

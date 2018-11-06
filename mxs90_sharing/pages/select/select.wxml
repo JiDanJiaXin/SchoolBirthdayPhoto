@@ -1,0 +1,16 @@
+<!--select.wxml-->
+<!--选择头像框页-->
+<!--先弄个大容器-->
+<view class="tou-list-container">
+  <!--小容器装一下各个头像框并细调布局-->
+  <view class="big-photo-list">
+    <!--wxfor渲染-->
+    <view class="big-photo-item" wx:for="{{touList}}" bindtap="detail" data-tounum="{{index}}">
+      <!--图比较简陋，但考虑程序可以跑起来，就一并共享-->
+      <image class="photo" src="{{item.coverImgUrl}}"></image>
+      <text class="tou-name">{{item.name}}</text>
+    </view>
+  </view>
+  <!-- <image class='bg' src="/images/bgsel.jpg"></image> -->
+</view>
+<!--author:马小帅.-->

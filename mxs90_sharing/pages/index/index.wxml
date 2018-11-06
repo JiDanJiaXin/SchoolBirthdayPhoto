@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<!--制作头像首页（类似一个海报）-->
+<view class="container">
+   <!-- 卡片样式（个人感觉有利于大小不同的手机看海报，并不是响应式） -->
+   <view class="card_wrap">
+    <view class="card_item card1 ">
+      <!-- 给海报顶部一个小蛋糕 -->
+      <span class="change_icon">
+        <image src="/images/dangao.png"></image>
+      </span>
+      <!-- 海报文字 -->
+      <view class="card_info">
+        <blockquote class="card_info_mes_title">90岁生日快乐！</blockquote>
+          <span class="card_info_mes_item" style="margin-top: 15px;">薪火相传，弦歌不辍</span>
+          <span class="card_info_mes_item">桃李不言，下自成蹊</span>
+          <span class="card_info_mes_item">十月二十日，我们在AHAU等你</span>
+      </view>
+      <!-- 底部的跳转选择头像框button -->
+      <view class="btn-cta buy_btn" id="1" bindtap="toselect">一起换头像吧！</view>
+      <!-- 海报的整个background-image -->
+      <image src="/images/xianhua1.jpg"></image>
+      <!-- 底部小广告 -->
+      <view class="footer">出品人：AAU 技术支持：信计院16网络M</view>
+    </view>
+   </view> 
+</view>
+<!--author:马小帅.-->
