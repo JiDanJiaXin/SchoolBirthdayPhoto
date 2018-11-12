@@ -10,6 +10,8 @@
       <image class="photo" src="{{item.coverImgUrl}}"></image>
       <text class="tou-name">{{item.name}}</text>
     </view>
+    <!--这个是我自己的广告，如果可以希望大家可以在微信上点击几下-->
+    <ad unit-id="adunit-e0cef3fa68d2aeb8"></ad>
   </view>
   <!-- <image class='bg' src="/images/bgsel.jpg"></image> -->
 </view>
